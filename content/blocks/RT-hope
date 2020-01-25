@@ -1,0 +1,75 @@
+{
+        "type": "ChargeTurret",
+        "name": "RT-HOPE",
+        "description": "Скорострельная ракетная установка запускающая твёрдые тела на огромной скорости во врагов. Опционально использует Кинетический сплав для увеличения урона.",
+        "targetAir": true,
+        "targetGround": true,
+        "health": 3500,
+        "size": 4,
+        "inaccuracy": 5,
+        "reload": 40,
+        "ammoUseEffect": "shellEjectBig",
+        "shots": 16,
+        "range": 30,
+        "burstSpacing": 0.2,
+        "rotatespeed": 1,
+        "ammo": {
+                "silicon": {
+                           "speed": 0.9,
+                           "damage": 120,
+                           "bulletWidth": 2,
+                           "bulletHeight": 5,
+                           "shootEffect": "shockwave",
+                           "smokeEffect": "generatespark",
+                           "ammoMultiplier": 0.5
+                },
+                "graphite": {
+                            "speed": 1,
+                            "damage": 120,
+                            "bulletWidth": 2,
+                            "bulletHeight": 5,
+                            "shootEffect": "shockwave",
+                            "smokeEffect": "blastsmoke",
+                            "ammoMultiplier": 0.3
+                },
+                "metaglass": {
+                             "speed": 1.2,
+                             "damage": 240,
+                             "bulletWidth": 2,
+                             "bulletHeight": 4,
+                             "shootEffect": "bigShockwave",
+                             "smokeEffect": "formsmoke",
+                             "ammoMultiplier": 0.3,
+                             "splashDamageRadius": 13,
+                             "splashDamage": 115
+                },
+                "titanium": {
+                            "speed": 1,
+                            "damage": 200,
+                            "bulletWidth": 2,
+                            "bulletHeight": 5,
+                            "shootEffect": "shockwave",
+                            "smokeEffect": "smeltsmoke",
+                            "ammoMultiplier": 0.5
+                },
+                "plastanium": {
+                              "speed": 1.3,
+                              "damage": 500,
+                              "bulletWidth": 2,
+                              "bulletHeight": 4,
+                              "shootEffect": "bigShockwave",
+                              "smokeEffect": "smeltsmoke",
+                              "ammoMultiplier": 0.25
+                },
+        },
+        "requirements": [
+                { "item": "silicon", "amount": 100},
+                { "item": "thorium", "amount": 300},
+                { "item": "plastanium", "amount": 300},
+                { "item": "titanium", "amount": 260},
+                { "item": "surge-alloy", "amount": 200}
+        ],
+        "category": "turret",
+        "shootSound": "artillery"
+        "research": "ripple"
+}
