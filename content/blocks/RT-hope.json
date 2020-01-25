@@ -60,7 +60,7 @@
                               "shootEffect": "bigShockwave",
                               "smokeEffect": "smeltsmoke",
                               "ammoMultiplier": 0.25
-                }
+                },
         },
         "requirements": [
                 { "item": "silicon", "amount": 100},
