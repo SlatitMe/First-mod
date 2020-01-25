@@ -70,6 +70,6 @@
                 { "item": "surge-alloy", "amount": 200}
         ],
         "category": "turret",
-        "shootSound": "artillery"
+        "shootSound": "artillery",
         "research": "ripple"
 }
